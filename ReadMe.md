@@ -16,23 +16,6 @@ The project consists of the following main components:
 
 The image above illustrates the workflow of the Lagos Weather Data Pipeline project, showcasing the various stages of data extraction, transformation, and loading.
 
-
-# Lagos Weather Data Pipeline Project
-
-## Overview
-The Lagos Weather Data Pipeline project is an automated data pipeline designed to fetch weather data for Lagos from the OpenWeather API, transform it by converting temperatures from Kelvin to Fahrenheit, and finally load the transformed data into an AWS S3 bucket. The entire process is orchestrated using Apache Airflow for automation.
-
-## Project Components
-1. **Apache Airflow**: Used for workflow orchestration and automation of the data pipeline.
-2. **OpenWeather API**: The source of weather data for Lagos.
-3. **Data Transformation**: Conversion of temperature data from Kelvin to Fahrenheit.
-4. **AWS S3 Bucket**: Destination for storing the transformed weather data.
-
-## Pipeline Workflow
-1. **Data Extraction**: The pipeline fetches weather data for Lagos from the OpenWeather API.
-2. **Data Transformation**: Temperature data is transformed by converting it from Kelvin to Fahrenheit.
-3. **Data Loading**: Transformed weather data is loaded into an AWS S3 bucket.
-
 ## Project Structure
 The project is organized into the following directories and files:
 - **dags/**: Contains Apache Airflow DAG definition files.
