@@ -43,7 +43,7 @@ To set up and run the Lagos Weather Data Pipeline project, follow these steps:
 
 ## Documentation
 
-Here is the medium article that talks about this project and how I carried it out. Have a read (here)[https://medium.com/@chideraozigbo/lagos-weather-data-pipeline-using-apache-airflow-2738100f4f03]
+Here is the medium article that talks about this project and how I carried it out. Have a read [here](https://medium.com/@chideraozigbo/lagos-weather-data-pipeline-using-apache-airflow-2738100f4f03)
 
 ## Conclusion
 The Lagos Weather Data Pipeline project demonstrates the automation of fetching, transforming, and loading weather data for Lagos using Apache Airflow. By leveraging Airflow's workflow orchestration capabilities, the project provides a robust and scalable solution for managing and automating data pipelines.
